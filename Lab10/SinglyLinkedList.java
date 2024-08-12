@@ -67,6 +67,8 @@ class LinkedList {
                         System.out.println("Node not found");
                         return;
                 }
+                else{
+                        prev.link=temp.link;
         }
 
         public void deleteAtFirst() {
